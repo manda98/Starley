@@ -1,0 +1,14 @@
+<emoji id=5260342697075416641>❌</emoji> **Error failed broadcast:**
+ChatWriteForbidden or lu dimute -1002609722149
+ChatWriteForbidden or lu dimute -1002159286441
+ChatWriteForbidden or lu dimute -1002067351562
+ChatWriteForbidden or lu dimute -1001981818726
+ChannelPrivate or channel private -1002312047354
+ChatWriteForbidden or lu dimute -1001307868573
+ChatWriteForbidden or lu dimute -1001948132654
+Forbidden or antispam grup aktif -1002469177542
+ChatWriteForbidden or lu dimute -1002152269983
+ChatWriteForbidden or lu dimute -1003025304681
+ChatWriteForbidden or lu dimute -1002493096804
+PeerIdInvalid or lu bukan pengguna grup ini -4922455506
+PeerIdInvalid or lu bukan pengguna grup ini -583666555
