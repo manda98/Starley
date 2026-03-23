@@ -48,7 +48,7 @@ API_GEMINI = os.environ.get("API_GEMINI", "AIzaSyAMSxIG6-WV_mOGm6BL9TtFpW7GOMVmz
 
 API_MAELYN = os.environ.get("API_MAELYN", "VENOMORSYU")
 
-BOT_NAME = os.environ.get("BOT_NAME", "DFH Usebot")
+BOT_NAME = os.environ.get("BOT_NAME", "starly userbot")
 
 DB_NAME = os.environ.get("DB_NAME", "vexa3")
 
