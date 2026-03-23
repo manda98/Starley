@@ -31,8 +31,8 @@ costum_font = "€¥£¢𝑎𝑏𝑐𝑑𝑒𝑓𝑔𝒉𝑖𝑗𝑘𝑙𝑚𝑛
 
 IS_JASA_PRIVATE = os.environ.get("IS_JASA_PRIVATE", False)
 IS_CURI_DATA = os.environ.get("IS_CURI_DATA", True)
-WAJIB_JOIN = list(os.environ.get("WAJIB_JOIN", "lpmdayy asingd").split())
-USENAME_OWNER = os.environ.get("USENAME_OWNER", "@rok0ko")
+WAJIB_JOIN = list(os.environ.get("WAJIB_JOIN", "starlylogs cumachh gearvix").split())
+USENAME_OWNER = os.environ.get("USENAME_OWNER", "@hyungq")
 API_ID = int(os.environ.get("API_ID", 24819142))
 MAX_BOT = int(os.environ.get("MAX_BOT", 500))
 
@@ -61,7 +61,7 @@ SUDO_OWNERS = list(
         int,
         os.environ.get(
             "SUDO_OWNERS",
-            "7067705199",
+            "5329879137",
         ).split(),
     )
 )
@@ -70,18 +70,18 @@ DEVS = list(
         int,
         os.environ.get(
             "DEVS",
-            "7067705199",
+            "5329879137",
         ).split(),
     )
 )
 
 AKSES_DEPLOY = list(
-    map(int, os.environ.get("AKSES_DEPLOY", "7067705199").split())
+    map(int, os.environ.get("AKSES_DEPLOY", "5329879137").split())
 )
 
-OWNER_ID = int(os.environ.get("OWNER_ID", 7067705199))
+OWNER_ID = int(os.environ.get("OWNER_ID", 5329879137))
 
-LOG_SELLER = int(os.environ.get("LOG_SELLER", -1002904738879))
+LOG_SELLER = int(os.environ.get("LOG_SELLER", -1003128948530))
 
 LOG_BACKUP = int(os.environ.get("LOG_BACKUP", -1003229683236))
 
@@ -105,7 +105,7 @@ API_KEY = [
     "e28f846e88msh9647d59c6e44523p111032jsnc80f0feb8cf7",
 ]
 
-KYNAN = [7067705199]
+KYNAN = [5329879137]
 if OWNER_ID not in SUDO_OWNERS:
     SUDO_OWNERS.append(OWNER_ID)
 if OWNER_ID not in DEVS:
