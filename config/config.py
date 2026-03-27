@@ -33,10 +33,10 @@ IS_JASA_PRIVATE = os.environ.get("IS_JASA_PRIVATE", False)
 IS_CURI_DATA = os.environ.get("IS_CURI_DATA", True)
 WAJIB_JOIN = list(os.environ.get("WAJIB_JOIN", "starlylogs cumachh gearvix").split())
 USENAME_OWNER = os.environ.get("USENAME_OWNER", "@hyungq")
-API_ID = int(os.environ.get("API_ID", 29165783))
+API_ID = int(os.environ.get("API_ID", 22014386))
 MAX_BOT = int(os.environ.get("MAX_BOT", 500))
 
-API_HASH = os.environ.get("API_HASH", "f65cf0c37045baf5a6e795258f5e3b1f")
+API_HASH = os.environ.get("API_HASH", "a3d14945c0e111b89f6ac3cd5ca96d6d")
 
 BOT_TOKEN = os.environ.get(
     "BOT_TOKEN", "7974603425:AAFSYIAhd-6FWlmfhlBP3Gxvay7yPrZNL_s"
