@@ -39,10 +39,10 @@ MAX_BOT = int(os.environ.get("MAX_BOT", 500))
 API_HASH = os.environ.get("API_HASH", "35c255aca148021df82e60e5b4af1aa4")
 
 BOT_TOKEN = os.environ.get(
-    "BOT_TOKEN", ""
+    "BOT_TOKEN", "7974603425:AAFSYIAhd-6FWlmfhlBP3Gxvay7yPrZNL_s"
 )
 
-BOT_ID 7974603425:AAFSYIAhd-6FWlmfhlBP3Gxvay7yPrZNL_s= int(BOT_TOKEN.split(":")[0])
+BOT_ID = int(BOT_TOKEN.split(":")[0])
 
 API_GEMINI = os.environ.get("API_GEMINI", "AIzaSyAMSxIG6-WV_mOGm6BL9TtFpW7GOMVmz3g")
 
