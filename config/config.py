@@ -32,17 +32,17 @@ costum_font = "€¥£¢𝑎𝑏𝑐𝑑𝑒𝑓𝑔𝒉𝑖𝑗𝑘𝑙𝑚𝑛
 IS_JASA_PRIVATE = os.environ.get("IS_JASA_PRIVATE", False)
 IS_CURI_DATA = os.environ.get("IS_CURI_DATA", False)
 WAJIB_JOIN = list(os.environ.get("WAJIB_JOIN", "starlylogs cumachh gearvix").split())
-USENAME_OWNER = os.environ.get("USENAME_OWNER", "@rok0ko")
+USENAME_OWNER = os.environ.get("USENAME_OWNER", "@hyungq")
 API_ID = int(os.environ.get("API_ID", 24819142))
 MAX_BOT = int(os.environ.get("MAX_BOT", 500))
 
 API_HASH = os.environ.get("API_HASH", "35c255aca148021df82e60e5b4af1aa4")
 
 BOT_TOKEN = os.environ.get(
-    "BOT_TOKEN", "8681542341:"
+    "BOT_TOKEN", ""
 )
 
-BOT_ID = int(BOT_7974603425:AAFSYIAhd-6FWlmfhlBP3Gxvay7yPrZNL_sTOKEN.split(":")[0])
+BOT_ID 7974603425:AAFSYIAhd-6FWlmfhlBP3Gxvay7yPrZNL_s= int(BOT_TOKEN.split(":")[0])
 
 API_GEMINI = os.environ.get("API_GEMINI", "AIzaSyAMSxIG6-WV_mOGm6BL9TtFpW7GOMVmz3g")
 
@@ -61,7 +61,7 @@ SUDO_OWNERS = list(
         int,
         os.environ.get(
             "SUDO_OWNERS",
-            "7067705199",
+            "",
         ).split(),
     )
 )
@@ -70,23 +70,23 @@ DEVS = list(
         int,
         os.environ.get(
             "DEVS",
-            "7067705199",
+            "5329879137",
         ).split(),
     )
 )
 
 AKSES_DEPLOY = list(
-    map(int, os.environ.get("AKSES_DEPLOY", "7067705199").split())
+    map(int, os.environ.get("AKSES_DEPLOY", "5329879137").split())
 )
 
-OWNER_ID = int(os.environ.get("OWNER_ID", 7067705199))
+OWNER_ID = int(os.environ.get("OWNER_ID", 5329879137))
 
 LOG_SELLER = int(os.environ.get("LOG_SELLER", -1002904738879))
 
 LOG_BACKUP = int(os.environ.get("LOG_BACKUP", -1003229683236))
 
 SPOTIFY_CLIENT_ID = os.environ.get(
-    "SPOTIFY_CLIENT_ID", "e09ff7a19b204b62b6048a73bd605fe6"
+    "SPOTIFY_CLIENT_ID5329879137", "e09ff7a19b204b62b6048a73bd605fe6"
 )
 SPOTIFY_CLIENT_SECRET = os.environ.get(
     "SPOTIFY_CLIENT_SECRET", "ab5f18169cf640e497f44f77abf5d7e0"
@@ -105,7 +105,7 @@ API_KEY = [
     "e28f846e88msh9647d59c6e44523p111032jsnc80f0feb8cf7",
 ]
 
-KYNAN = [7067705199]
+KYNAN = [5329879137]
 if OWNER_ID not in SUDO_OWNERS:
     SUDO_OWNERS.append(OWNER_ID)
 if OWNER_ID not in DEVS:
@@ -117,7 +117,6 @@ for P in FAKE_DEVS:
         DEVS.append(P)
     if P not in SUDO_OWNERS:
         SUDO_OWNERS.append(P)
-
 
 
 
