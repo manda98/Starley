@@ -81,7 +81,7 @@ AKSES_DEPLOY = list(
 
 OWNER_ID = int(os.environ.get("OWNER_ID", 5329879137))
 
-LOG_SELLER = int(os.environ.get("LOG_SELLER", -1002904738879))
+LOG_SELLER = int(os.environ.get("LOG_SELLER", -1003128948530))
 
 LOG_BACKUP = int(os.environ.get("LOG_BACKUP", -4950889982))
 
